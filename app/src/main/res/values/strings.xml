@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SeventhDemo2</string>
+    <string-array name="about">
+        <item>版本：1.0.0</item>
+        <item>发布时间：2018年9月11日</item>
+    </string-array>
+</resources>

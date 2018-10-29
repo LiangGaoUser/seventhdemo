@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_top"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/bn_topbar_back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/ic_arrow_back_selector"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:id="@+id/tv_topbar_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="标题"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/largeTxt"
+        android:layout_gravity="center_vertical"/>
+
+    <Button
+        android:id="@+id/bn_topbar_menu"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/mediumTxt"
+        android:background="@drawable/ic_more_horiz_selector"
+        android:layout_marginRight="5dp"
+        />
+
+</LinearLayout>
